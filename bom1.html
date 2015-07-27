@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BOM TEST</title>
+<script type="text/javascript">
+console.log("appCodeName:"+window.navigator.appCodeName);
+console.log("appName:"+window.navigator.appName);
+console.log("appVersion  :"+window.navigator.appVersion);
+console.log("userAgent :"+window.navigator.userAgent);
+console.log("window parent:"+window.parent);
+console.log("window top:"+window.top);
+console.log("window location hostname:"+window.location.hostname);
+console.log("window location pathname:"+window.location.pathname);
+console.log("window location href:"+window.location.href);
+console.log("window location port:"+window.location.port);
+console.log("window location protocol:"+window.location.protocol);
+console.log("window document lastModified:"+window.document.lastModified);
+console.log("window document url:"+window.document.URL);
+if (window != top) top.location.href = location.href;
+self.resizeTo(900,900);
+</script>
+</head>
+<body>
+</body>
+</html>
